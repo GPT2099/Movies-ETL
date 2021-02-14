@@ -1,1 +1,2 @@
 # Movies-ETL
+The company Amazing Prime has decided to hold a hackathon for programmers to come up with a way to predict what movies will become popular in the future. The pupose of this repo is to create an automated pipeline that can be updated daily that takes in new data, performs the appropriate transformations, and loads the data into existing tables. A function is created that takes in the three files- Wikipedia data, Kaggle metadata, and the MovieLens rating data and performs the ETL process by adding the data to a PostgreSQL database.
